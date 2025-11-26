@@ -35,24 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-document.addEventListener("DOMContentLoaded", () => {
-  const formulario = document.querySelector("form");
 
-  formulario.addEventListener("submit", function(event) {
-    event.preventDefault(); // Evita que la página se recargue o redirija
-    
-    // Aquí puedes hacer lo que quieras con los datos
-    const nombre = document.getElementById("nombre").value;
-    const email = document.getElementById("email").value;
-    const mensaje = document.getElementById("mensaje").value;
-    const opcion = document.getElementById("opcion").value;
 
-    console.log("Nombre:", nombre);
-    console.log("Email:", email);
-    console.log("Mensaje:", mensaje);
-    console.log("Opción:", opcion);
-
-    alert("¡Formulario enviado sin recargar la página!");
-  });
-});
 
