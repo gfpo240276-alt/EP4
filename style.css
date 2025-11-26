@@ -1,0 +1,694 @@
+.pagina-talleres {/*Estilo CSS para la página de HTML de talleres*/
+  background: #e6d6f2 center/cover no-repeat fixed;
+  font: 500 1.1rem 'Libre Baskerville', serif;
+  color: #2c2c2c;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.pagina-talleres header,
+.pagina-talleres footer {
+  backdrop-filter: blur(10px);
+  padding: 1rem 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.pagina-talleres header {
+  background: rgba(236, 190, 222, 0.95);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.pagina-talleres footer {
+  background: #b38cd9;
+  color: white;
+  margin-top: 2rem;
+}
+
+.pagina-talleres h1 {
+  font: 700 2.8rem 'Playfair Display', serif;
+  color: #c45da6;
+  margin-bottom: 10px;
+  padding: 0 1rem;
+}
+
+.pagina-talleres h5 {
+  font: 600 1.8rem 'Playfair Display', serif;
+  color: #7f3fbf;
+  margin-bottom: 20px;
+}
+
+.pagina-talleres p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.05rem;
+  color: #34495e;
+}
+
+.pagina-talleres nav {
+  background: #d0e1f9;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0.5rem 1rem;
+  flex-wrap: wrap;
+}
+
+.pagina-talleres nav a {
+  font: 600 1.1rem 'Playfair Display', serif;
+  color: #2c3e50;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.pagina-talleres nav a:hover {
+  background: #c27ba0;
+  color: white;
+  transform: translateY(-2px);
+}
+.pagina-talleres section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.pagina-talleres .container {
+  padding: 0 15px;
+}
+
+.pagina-talleres .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.pagina-talleres .col {
+  flex: 1 0 100%;
+  padding: 15px;
+  max-width: 100%;
+}
+
+.pagina-talleres .card {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 2rem;
+  transition: 0.3s ease;
+}
+
+.pagina-talleres .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.pagina-talleres .card-body {
+  background: #d4e4f7;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  min-height: 330px;
+  text-align: justify;
+}
+
+.pagina-talleres .card-img-top,
+.pagina-talleres .card-img-bottom {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Pagina del formulario */
+.pagina-formulario {
+  font-family: Arial, sans-serif;
+  padding: 17px;
+  background: #f5f5f5;
+}
+
+.pagina-formulario * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.pagina-formulario header,
+.pagina-formulario footer {
+  background: #CC97C3;
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+}
+
+.pagina-formulario footer {
+  padding: 3rem;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+.pagina-formulario section {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Formulario estructura CSS */
+.pagina-formulario form {
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.pagina-formulario form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.pagina-formulario form input,
+.pagina-formulario form textarea,
+.pagina-formulario form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pagina-formulario form input[type="submit"],
+.pagina-formulario form input[type="reset"],
+.pagina-formulario form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.pagina-formulario form input[type="submit"],
+.pagina-formulario form input[type="reset"] {
+  background: #870BB3;
+}
+
+.pagina-formulario form button {
+  background: #555;
+}
+
+.pagina-formulario .lista {
+  margin-top: 30px;
+  background: #CC97C3;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.pagina-formulario .lista p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.pagina-formulario .input-grupo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.pagina-formulario .input-grupo input {
+  flex: 1;
+}
+
+.pagina-formulario #lista {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.pagina-formulario .botones-formulario {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+/* Estructura de CSS de la pagina de inicio */
+.pagina-inicio {
+  background: #e6d6f2;
+  font-family: 'Playfair Display', serif;
+  color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+}
+
+.pagina-inicio header {
+  background: rgba(236, 190, 222, 0.95);
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+.pagina-inicio h1 {
+  font-size: 2.8rem;
+  color: #c45da6;
+  margin-bottom: 1rem;
+}
+
+.pagina-inicio nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.pagina-inicio nav a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  background: #d0e1f9;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+.pagina-inicio nav a:hover {
+  background: #c27ba0;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.pagina-inicio .Inicio {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pagina-inicio .imagen-fondo {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pagina-inicio .enlaces-destacados {
+  background: #fce4ec;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-inicio .enlaces-destacados h2 {
+  color: #7f3fbf;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.pagina-inicio .enlaces-destacados a {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #7f3fbf;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.pagina-inicio .enlaces-destacados a:hover {
+  color: #870BB3;
+  text-decoration: underline;
+}
+
+.pagina-bootstrap {
+  background: #e6d6f2;
+  font-family: 'Playfair Display', serif;
+  color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+}
+
+.pagina-bootstrap header {
+  background: rgba(236, 190, 222, 0.95);
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-bootstrap header h1 {
+  font-size: 2.8rem;
+  color: #c45da6;
+  margin: 0;
+}
+
+.pagina-bootstrap nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background: #d0e1f9;
+  padding: 1rem;
+}
+
+.pagina-bootstrap nav a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+.pagina-bootstrap nav a:hover {
+  background: #c27ba0;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.pagina-bootstrap .card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pagina-bootstrap .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pagina-bootstrap .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.pagina-bootstrap .card-body {
+  background: #fce4ec;
+  padding: 1rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.pagina-bootstrap .card-title {
+  font-size: 1.2rem;
+  color: #7f3fbf;
+  font-weight: 600;
+  margin: 0;
+}
+
+.pagina-bootstrap .footer-inicio {
+  background-color: #d0e1f9;
+  color: #2c3e50;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+}
+.footer-taller {
+  background: #CC97C3;
+  color: #000;
+  text-align: center;
+  padding: 3rem;
+  
+}
+
+/*Formulario de contacto, estructura CSS*/
+/* Formulario de contacto, estructura CSS */
+.formulario-contacto {
+  font-family: Arial, sans-serif;
+  padding: 17px;
+  background: #f5f5f5;
+}
+
+.formulario-contacto * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario-contacto header,
+.formulario-contacto .footer-contacto {
+  background: #CC97C3;
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+}
+
+.formulario-contacto .footer-contacto {
+  padding: 3rem;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.formulario-contacto section {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formulario-contacto form {
+  background: #fce4ec;
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.formulario-contacto form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+.formulario-contacto form input,
+.formulario-contacto form textarea,
+.formulario-contacto form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formulario-contacto form input[type="submit"],
+.formulario-contacto form input[type="reset"],
+.formulario-contacto form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formulario-contacto form input[type="submit"],
+.formulario-contacto form input[type="reset"] {
+  background: #870BB3;
+}
+
+.formulario-contacto form button {
+  background: #555;
+}
+
+.formulario-contacto .botones-contacto {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Estilo para el saludo dinámico */
+#saludo-preview {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: #7b3f99;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease;
+}
+/* Página de divulgación */
+.pagina-divulgacion {
+  background: #e6d6f2;
+  font-family: 'Playfair Display', serif;
+  color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+}
+.pagina-divulgacion * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.pagina-divulgacion header {
+  background: rgba(236, 190, 222, 0.95);
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pagina-divulgacion header h1 {
+  font-size: 2.8rem;
+  color: #c45da6;
+  margin-bottom: 1rem;
+}
+
+.pagina-divulgacion nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background: #d0e1f9;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pagina-divulgacion nav a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+.pagina-divulgacion nav a:hover {
+  background: #c27ba0;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.pagina-divulgacion section {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.pagina-divulgacion h2 {
+  font-size: 2rem;
+  color: #7f3fbf;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.pagina-divulgacion h3 {
+  font-size: 1.5rem;
+  color: #c45da6;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.pagina-divulgacion p,
+.pagina-divulgacion span {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-top: 1rem;
+  text-align: justify;
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+  color: #34495e;
+}
+
+.pagina-divulgacion img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.pagina-divulgacion .recursos ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.pagina-divulgacion .recursos li {
+  margin-bottom: 1rem;
+  background: #fce4ec;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.pagina-divulgacion .recursos li:hover {
+  background-color: #e6d6f2;
+}
+
+.pagina-divulgacion .recursos a {
+  text-decoration: none;
+  color: #7f3fbf;
+  font-weight: 600;
+}
+
+.pagina-divulgacion .recursos a:hover {
+  text-decoration: underline;
+  color: #870BB3;
+}
+.pagina-divulgacion footer {
+  background: #b38cd9;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .pagina-divulgacion header h1 {
+    font-size: 2rem;
+  }
+
+  .pagina-divulgacion nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .pagina-divulgacion nav a {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .pagina-divulgacion section {
+    padding: 20px;
+  }
+
+  .pagina-divulgacion h2 {
+    font-size: 1.6rem;
+  }
+
+  .pagina-divulgacion h3 {
+    font-size: 1.2rem;
+  }
+
+  .pagina-divulgacion p,
+  .pagina-divulgacion span {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .pagina-divulgacion footer {
+    font-size: 0.8rem;
+    padding: 2rem 1rem;
+  }
+}

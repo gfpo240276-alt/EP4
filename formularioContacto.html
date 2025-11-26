@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Paulina Yetlanetzy Grande Flores" />
+  <title>Formulario de notificaciones</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="JS.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="formulario-contacto">
+  <section>
+    <header>
+      <h1>Taller de arte</h1>
+      <p>Formulario de notificaciones</p>
+      <p id="saludo">¡Bienvenido a este mundo del arte!</p>
+    </header>
+
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required />
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required />
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="10 dígitos" pattern="[0-9]{10}" required />
+
+      <label for="preferencia">¿Cómo prefieres recibir notificaciones?</label>
+      <select id="preferencia" name="preferencia" required>
+        <option value="">Selecciona una opción</option>
+        <option value="correo">Correo electrónico</option>
+        <option value="mensaje">Mensaje de texto</option>
+      </select>
+
+      <div class="botones-contacto">
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpiar" />
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer-contacto">
+    <p>2025© Taller de arte | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
